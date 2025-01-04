@@ -1,15 +1,19 @@
 import setuptools
 
-with open("README.md", "r", encoding="utf-8") as f:
-    long_description = f.read()
+# Read the long description
+try:
+    with open("README.md", "r", encoding="utf-8") as f:
+        long_description = f.read()
+except FileNotFoundError:
+    long_description = "A small Python package for NLP applications."
 
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Text-Summarizer-Project"
-AUTHOR_USER_NAME = "entbappy"
+REPO_NAME = "text_summarization_project"
+AUTHOR_USER_NAME = "sumits234"
 SRC_REPO = "textSummarizer"
-AUTHOR_EMAIL = "entbappy73@gmail.com"
+AUTHOR_EMAIL = "sumit2@gmail.com"
 
 
 
