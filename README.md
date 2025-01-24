@@ -6,14 +6,10 @@ This project implements a **Text Summarization System** using state-of-the-art t
 - [Project Description](#project-description)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Model Evaluation](#model-evaluation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Description
 
-This project uses **Hugging Face Transformers** and **PyTorch** to implement an abstractive text summarization model, specifically leveraging transformer architectures like **BART** or **T5**. The model is trained on a large corpus and fine-tuned to summarize input texts effectively.
+This project uses **Hugging Face Transformers** and **PyTorch** to implement an abstractive text summarization model, specifically leveraging transformer architectures .The model is trained on a large corpus and fine-tuned to summarize input texts effectively.
 
 - **Input**: Long documents or articles.
 - **Output**: Concise summaries with high semantic accuracy.
